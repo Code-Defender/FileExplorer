@@ -6,9 +6,10 @@ using std::string;
 class BSTNode
 {
 public:
-	Directory Data;
+	Directory* Data;
 	BSTNode* left;
 	BSTNode* right;
 
+	BSTNode(Directory* dir);
 };
 

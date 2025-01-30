@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BST.cpp" />
     <ClCompile Include="BSTNode.cpp" />
     <ClCompile Include="Data.cpp" />
     <ClCompile Include="Directory.cpp" />
@@ -134,6 +135,7 @@
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BST.h" />
     <ClInclude Include="BSTNode.h" />
     <ClInclude Include="Data.h" />
     <ClInclude Include="Directory.h" />

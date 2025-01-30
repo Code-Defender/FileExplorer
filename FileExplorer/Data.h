@@ -1,4 +1,5 @@
 #pragma once
+#include<iostream>
 class Data
 {
 
@@ -6,7 +7,7 @@ class Data
 
 public:
 
-	
+	Data();
 	Data(int, int, int);
 	void SetDay(int);
 	void SetMonth(int);
@@ -14,5 +15,6 @@ public:
 	int GetDay();
 	int GetMonth();
 	int GetYear();
+	void Display();
 };
 

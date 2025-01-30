@@ -6,10 +6,13 @@ using std::string;
 class Directory
 {
 public:
+	
 	string name;
 	int size;
 	Data lastModificationDate;
 	Directory* children;
+
+	Directory(string, int, Data);
 
 };
 
