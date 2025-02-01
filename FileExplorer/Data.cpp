@@ -17,7 +17,8 @@ Data::Data(int day, int month, int year)
 void Data::SetDay(int day)
 {
 	if (day <1 ||day > 31) {
-		std::cout << "Invalid\n";
+		std::cout << "Invalid day\n";
+		return;
 	}
 	this->day = day;
 }
@@ -25,7 +26,8 @@ void Data::SetDay(int day)
 void Data::SetMonth(int month)
 {
 	if (month<1 || month > 12) {
-		std::cout << "Invalid\n";
+		std::cout << "Invalid month\n";
+		return;
 	}
 	this->month = month;
 }
@@ -33,7 +35,8 @@ void Data::SetMonth(int month)
 void Data::SetYear(int year)
 {
 	if (year < 1) {
-		std::cout << "Invalid\n";
+		std::cout << "Invalid year\n";
+		return;
 	}
 	this->year = year;
 
